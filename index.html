@@ -85,9 +85,26 @@
       -->
       
       <div>
-  <h2 class="text-4xl font-bold text-gray-800 mb-4 animate-bounce">
-  Contact us
-</h2>
+        <style>
+          @keyframes fadeInUp {
+            from {
+              opacity: 0;
+              transform: translateY(10px);
+              }
+            to {
+              opacity: 1;
+              transform: translateY(0);
+              }
+            }
+            .fade-in-up {
+              animation: fadeInUp 1s ease-out;
+          }
+          </style>
+
+    <h2 class="text-4xl font-bold text-gray-800 mb-4 fade-in-up">
+      Contact us
+    </h2>
+
 
   <div class="border border-gray-300 rounded-lg p-6 bg-white shadow-md">
     <form action="https://formspree.io/f/xovdyqvb" method="POST" class="space-y-4">
