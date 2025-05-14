@@ -15,4 +15,10 @@ Open `index.html` in your browser or host it via GitHub Pages.
 
 ## 📄 License
 
+
+website 
+
+https://JSch05.github.io/elektroVoltWebsite/
+
+
 © 2025 Elektro-Volt. All rights reserved.
