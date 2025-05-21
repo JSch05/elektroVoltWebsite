@@ -1,15 +1,17 @@
+<!-- Grundlegende Parameter festgelegt-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Elektro-Volt – Your expert for photovoltaic systems, EV chargers, and home automation in NRW. Clean. Fast. Fixed price.">
+  <meta name="description" content="Elektro-Volt – Your expert for photovoltaic systems, EV chargers and home automation in NRW. Clean, Fast, Fix price.">
   <title>Elektro-Volt | PV Systems, EV Chargers & Smart Home in NRW</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <!-- Importieren von Tailwind(Design) durch link (Css alternative)-->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> 
 </head>
 <body class="bg-gray-50 text-gray-800">
 
-  <!-- Header -->
+  <!-- Kopfzeile -->
   <section id="head">
     <header class="bg-white shadow">
     <div class="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center">
@@ -25,7 +27,7 @@
   </header>
 </section>
 
-  <!-- Hero -->
+  <!-- Schlagzeile, Zusammengefasste Informationen -->
   <section class="bg-blue-700 text-white py-20">
     <div class="max-w-4xl mx-auto text-center px-4">
       <h2 class="text-4xl font-bold mb-4">PV System & EV Charger at a Fixed Price</h2>
@@ -34,7 +36,7 @@
     </div>
   </section>
 
-  <!-- Services -->
+  <!-- Service (Our Service sektion) -->
   <section id="services" class="py-16 bg-gray-100">
     <div class="max-w-6xl mx-auto px-4">
       <h3 class="text-3xl font-bold text-center mb-12">Our Services</h3>
@@ -55,7 +57,7 @@
     </div>
   </section>
 
-  <!-- About -->
+  <!-- Über uns, Kontakt -->
   <section id="about" class="py-16">
     <div class="max-w-4xl mx-auto px-4 text-center">
       <h3 class="text-3xl font-bold mb-6">About Elektro-Volt</h3>
@@ -88,52 +90,51 @@
     </div>
       -->
       
-      <div>
-        <style>
-          @keyframes fadeInUp {
-            from {
+  <div>
+      <style>
+        @keyframes fadeInUp {
+          from {
               opacity: 0;
               transform: translateY(10px);
               }
-            to {
+          to {
               opacity: 1;
               transform: translateY(0);
-              }
-            }
+             }
+          }
             .fade-in-up {
               animation: fadeInUp 1s ease-out;
-          }
+            }
           </style>
 
-    <h2 class="text-4xl font-bold text-gray-800 mb-4 mt-16 fade-in-up">
-      Contact us
-    </h2>
+      <h2 class="text-4xl font-bold text-gray-800 mb-4 mt-16 fade-in-up">
+        Contact us
+      </h2>
 
-
-  <div class="border border-gray-300 rounded-lg p-6 bg-white shadow-md">
-    <form action="https://formspree.io/f/xovdyqvb" method="POST" class="space-y-4">
-      <input type="text" name="name" placeholder="Your Name"
-        class="w-full border border-gray-300 rounded px-3 py-2 text-black bg-white">
-      <input type="email" name="email" placeholder="Your Email"
-        class="w-full border border-gray-300 rounded px-3 py-2 text-black bg-white">
-      <textarea name="message" placeholder="Your Message"
-        class="w-full border border-gray-300 rounded px-3 py-2 text-black bg-white"></textarea>
-      <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded">Send</button>
-    </form>
-  </div>
+    <div class="border border-gray-300 rounded-lg p-6 bg-white shadow-md">
+      <form action="https://formspree.io/f/xovdyqvb" method="POST" class="space-y-4">
+        <input type="text" name="name" placeholder="Your Name"
+          class="w-full border border-gray-300 rounded px-3 py-2 text-black bg-white">
+        <input type="email" name="email" placeholder="Your Email"
+          class="w-full border border-gray-300 rounded px-3 py-2 text-black bg-white">
+        <textarea name="message" placeholder="Your Message"
+          class="w-full border border-gray-300 rounded px-3 py-2 text-black bg-white"></textarea>
+        <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded">Send</button>
+      </form>
+    </div>
 </div>
 
       <div class="flex justify-center mt-10">
   <button class="bg-blue-600 text-white px-6 py-2 rounded-full shadow hover:bg-blue-700 transition">
-    <a href="#head">↑ Back to top</a>
+    <a href="#head">Back to top</a>
   </button>
 </div>
       
   </section>
 
-  <!-- Footer -->
+  <!-- Fußzeile -->
   <footer class="bg-gray-800 text-gray-300 text-sm py-6 text-center">
-    <p>&copy; 2025 Elektro-Volt – All rights reserved.</p>
+    <p> Elektro-Volt – All rights reserved</p>
     <div class="mt-2 space-x-4">
       <a href="#" class="hover:text-white">Imprint</a>
       <a href="#" class="hover:text-white">Privacy Policy</a>
