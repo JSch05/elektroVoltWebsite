@@ -1,24 +1,18 @@
 # Elektro-Volt Website
+Eine Musterwebseite, geschrieben für eine Präsentation einer Musterfirma für den Englisch Unterricht
 
-This is the official website of Elektro-Volt, a company specializing in photovoltaic systems, EV charger installations, and smart home automation in North Rhine-Westphalia, Germany.
+## Was kann die Webseite
 
-## 🛠 Features
+- Zeigt leistungen und Informationen über die Firma Elektro-Volt
+- Auf Englisch geschrieben
+- CSS (Design) Über Tailwind
+- Kontaktformular über Formspree, funktioniert und ist mit E-mail verknüpft
 
-- Responsive layout (Tailwind CSS)
-- English language
-- Contact form (non-functional placeholder)
-- Ready for GitHub Pages
+## Wie kann ich die Webseite öffnen?
+Man kommt auf die Webseite über folgenden Link:
 
-## 🚀 Usage
-
-Open `index.html` in your browser or host it via GitHub Pages.
-
-## 📄 License
-
-
-website 
-
+website: 
 https://JSch05.github.io/elektroVoltWebsite/
 
 
-© 2025 Elektro-Volt. All rights reserved.
+"Elektro-Volt -- All rights reserved."
